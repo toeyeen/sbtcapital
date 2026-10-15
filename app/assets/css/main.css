@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+html,
+body {
+  font-family: 'Sofia Pro Black', 'Sofia Pro', 'Public Sans', sans-serif;
+}
+
+body {
+  font-feature-settings: 'kern';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@theme static {
+  --font-sans: 'Sofia Pro Black', 'Sofia Pro', 'Public Sans', sans-serif;
+
+  --color-green-50: #EFFDF5;
+  --color-green-100: #D9FBE8;
+  --color-green-200: #B3F5D1;
+  --color-green-300: #75EDAE;
+  --color-green-400: #00DC82;
+  --color-green-500: #00C16A;
+  --color-green-600: #00A155;
+  --color-green-700: #007F45;
+  --color-green-800: #016538;
+  --color-green-900: #0A5331;
+  --color-green-950: #052E16;
+  --color-brand-50: #F2F7FF;
+  --color-brand-100: #E6F0FF;
+  --color-brand-200: #B3D1FF;
+  --color-brand-300: #80B2FF;
+  --color-brand-400: #4D93FF;
+  --color-brand-500: #005CE6;
+  --color-brand-600: #0047B3;
+  --color-brand-700: #003380;
+  --color-brand-800: #002B66;
+  --color-brand-900: #001B40;
+  --color-brand-950: #00132E;
+}
