@@ -45,13 +45,13 @@ export const KNOWLEDGE_BASE_ARTICLES: KnowledgeArticle[] = [
     readTime: '9 min read',
     featured: true,
     audioEmbed: 'https://share.transistor.fm/e/abbacbdd',
-    coverImage: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80',
+    coverImage: '/sbt_logo_subtle.svg',
     author: {
-      name: 'Jolaoso Toyin',
-      role: 'Chief Technology Officer',
-      avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80',
+      name: 'Adams Olajide',
+      role: 'Data Analyst',
+      avatar: '/sbt-capital-logo.png',
       linkedin: 'https://linkedin.com',
-      bio: 'Chief Technology Officer leading core platform architecture, distributed gaming microservices, and high-frequency transaction systems.'
+      bio: 'Data analyst focused on gaming performance, platform metrics, and practical insights for African operators.'
     },
     tableOfContents: [
       { id: 'how-rng-is-used-across-igaming-products', title: 'How RNG is Used Across iGaming Products', level: 2 },
@@ -233,11 +233,11 @@ export const KNOWLEDGE_BASE_ARTICLES: KnowledgeArticle[] = [
     readTime: '11 min read',
     featured: false,
     audioEmbed: 'https://share.transistor.fm/e/83e427b4',
-    coverImage: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80',
+    coverImage: '/sbt_logo_subtle.svg',
     author: {
       name: 'Adams Olajide',
       role: 'Data Analyst',
-      avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80',
+      avatar: '/sbt-capital-logo.png',
       linkedin: 'https://linkedin.com',
       bio: 'Data Analyst specializing in iGaming financial metrics, GGR/NGR modeling, predictive churn analytics, and player cohort retention.'
     },
@@ -344,11 +344,11 @@ export const KNOWLEDGE_BASE_ARTICLES: KnowledgeArticle[] = [
     quarter: 'Q2 2026',
     year: 2026,
     readTime: '8 min read',
-    coverImage: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80',
+    coverImage: '/sbt_logo_subtle.svg',
     author: {
       name: 'Bukola Gabriel',
       role: 'Chief Executive Officer',
-      avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80',
+      avatar: '/sbt-capital-logo.png',
       linkedin: 'https://linkedin.com',
       bio: 'Chief Executive Officer driving strategic expansion, tier-1 gaming partnerships, and regulatory licensing across African and global markets.'
     },
@@ -437,11 +437,11 @@ export const KNOWLEDGE_BASE_ARTICLES: KnowledgeArticle[] = [
     quarter: 'Q1 2026',
     year: 2026,
     readTime: '7 min read',
-    coverImage: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1200&q=80',
+    coverImage: '/sbt_logo_subtle.svg',
     author: {
       name: 'Folashade Alabi',
       role: 'Director of Regulatory & Compliance',
-      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80',
+      avatar: '/sbt-capital-logo.png',
       linkedin: 'https://linkedin.com',
       bio: 'Director of Regulatory & Compliance steering licensing, AML frameworks, responsible gaming safeguards, and state gaming board relationships.'
     },
@@ -488,13 +488,13 @@ export const KNOWLEDGE_BASE_ARTICLES: KnowledgeArticle[] = [
     quarter: 'Q4 2025',
     year: 2025,
     readTime: '10 min read',
-    coverImage: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80',
+    coverImage: '/sbt_logo_subtle.svg',
     author: {
-      name: 'Jolaoso Toyin',
-      role: 'Chief Technology Officer',
-      avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80',
+      name: 'Adams Olajide',
+      role: 'Data Analyst',
+      avatar: '/sbt-capital-logo.png',
       linkedin: 'https://linkedin.com',
-      bio: 'Chief Technology Officer leading core platform architecture, distributed gaming microservices, and high-frequency transaction systems.'
+      bio: 'Data analyst focused on gaming performance, platform metrics, and practical insights for African operators.'
     },
     tableOfContents: [
       { id: 'the-wallet-dilemma', title: 'The Wallet Dilemma in Multi-Vendor Platforms', level: 2 },
@@ -540,11 +540,11 @@ export const KNOWLEDGE_BASE_ARTICLES: KnowledgeArticle[] = [
     quarter: 'Q3 2025',
     year: 2025,
     readTime: '9 min read',
-    coverImage: 'https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&q=80',
+    coverImage: '/sbt_logo_subtle.svg',
     author: {
       name: 'Babatunde Adeleke',
       role: 'Director of African Retail Operations',
-      avatar: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=200&q=80',
+      avatar: '/sbt-capital-logo.png',
       linkedin: 'https://linkedin.com',
       bio: '20 years building physical sports betting networks, agency float logistics, and POS terminal distribution across West and East Africa.'
     },
@@ -592,11 +592,11 @@ export const KNOWLEDGE_BASE_ARTICLES: KnowledgeArticle[] = [
     quarter: 'Q2 2025',
     year: 2025,
     readTime: '11 min read',
-    coverImage: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&q=80',
+    coverImage: '/sbt_logo_subtle.svg',
     author: {
       name: 'Bukola Gabriel',
       role: 'Chief Executive Officer',
-      avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80',
+      avatar: '/sbt-capital-logo.png',
       linkedin: 'https://linkedin.com',
       bio: 'Chief Executive Officer driving strategic expansion, tier-1 gaming partnerships, and regulatory licensing across African and global markets.'
     },
@@ -638,11 +638,11 @@ export const KNOWLEDGE_BASE_ARTICLES: KnowledgeArticle[] = [
     quarter: 'Q1 2025',
     year: 2025,
     readTime: '8 min read',
-    coverImage: 'https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=1200&q=80',
+    coverImage: '/sbt_logo_subtle.svg',
     author: {
       name: 'Chisom Okeke',
       role: 'Head of Fintech & Payment Integrations',
-      avatar: 'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=200&q=80',
+      avatar: '/sbt-capital-logo.png',
       linkedin: 'https://linkedin.com',
       bio: 'Fintech architect integrating local African banking APIs, mobile money aggregators, and automated disbursement switches.'
     },
@@ -685,11 +685,11 @@ export const KNOWLEDGE_BASE_ARTICLES: KnowledgeArticle[] = [
     quarter: 'Q4 2024',
     year: 2024,
     readTime: '8 min read',
-    coverImage: 'https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&w=1200&q=80',
+    coverImage: '/sbt_logo_subtle.svg',
     author: {
       name: 'Adams Olajide',
       role: 'Data Analyst',
-      avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80',
+      avatar: '/sbt-capital-logo.png',
       linkedin: 'https://linkedin.com',
       bio: 'Data Analyst specializing in iGaming financial metrics, GGR/NGR modeling, predictive churn analytics, and player cohort retention.'
     },
@@ -735,13 +735,13 @@ export const KNOWLEDGE_BASE_ARTICLES: KnowledgeArticle[] = [
     quarter: 'Q3 2024',
     year: 2024,
     readTime: '9 min read',
-    coverImage: 'https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1200&q=80',
+    coverImage: '/sbt_logo_subtle.svg',
     author: {
-      name: 'Jolaoso Toyin',
-      role: 'Chief Technology Officer',
-      avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80',
+      name: 'Yusuf Balogun',
+      role: 'Integration Lead',
+      avatar: '/sbt-capital-logo.png',
       linkedin: 'https://linkedin.com',
-      bio: 'Chief Technology Officer leading core platform architecture, distributed gaming microservices, and high-frequency transaction systems.'
+      bio: 'Integration lead working across sportsbook products, virtual sports content, and dependable platform connections.'
     },
     tableOfContents: [
       { id: 'the-virtual-sports-phenomenon', title: 'The Virtual Sports Phenomenon in Emerging Markets', level: 2 },
@@ -781,11 +781,11 @@ export const KNOWLEDGE_BASE_ARTICLES: KnowledgeArticle[] = [
     quarter: 'Q2 2024',
     year: 2024,
     readTime: '10 min read',
-    coverImage: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&q=80',
+    coverImage: '/sbt_logo_subtle.svg',
     author: {
       name: 'Yusuf Balogun',
       role: 'Head of Trading & Risk Operations',
-      avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=200&q=80',
+      avatar: '/sbt-capital-logo.png',
       linkedin: 'https://linkedin.com',
       bio: 'Head of Trading & Risk Operations managing book liability, anti-fraud algorithms, sharp betting mitigation, and real-time over-round pricing.'
     },
@@ -832,13 +832,13 @@ export const KNOWLEDGE_BASE_ARTICLES: KnowledgeArticle[] = [
     quarter: 'Q1 2024',
     year: 2024,
     readTime: '7 min read',
-    coverImage: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80',
+    coverImage: '/sbt_logo_subtle.svg',
     author: {
-      name: 'Oluwatoyin Jolaoso',
-      role: 'Head of Platform Products',
-      avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80',
+      name: 'Bukola Gabriel',
+      role: 'Chief Executive Officer',
+      avatar: '/sbt-capital-logo.png',
       linkedin: 'https://linkedin.com',
-      bio: 'Platform strategist architecting sportsbook and retail solutions across sub-Saharan Africa and international regulated markets.'
+      bio: 'Leads SBT Capital’s product direction and partnerships, with a focus on practical gaming technology for African markets.'
     },
     tableOfContents: [
       { id: 'the-crash-game-revolution', title: 'The Crash Game Revolution', level: 2 },
@@ -876,11 +876,11 @@ export const KNOWLEDGE_BASE_ARTICLES: KnowledgeArticle[] = [
     quarter: 'Q4 2023',
     year: 2023,
     readTime: '10 min read',
-    coverImage: 'https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1200&q=80',
+    coverImage: '/sbt_logo_subtle.svg',
     author: {
       name: 'Folashade Alabi',
       role: 'Director of Regulatory & Compliance',
-      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80',
+      avatar: '/sbt-capital-logo.png',
       linkedin: 'https://linkedin.com',
       bio: 'Director of Regulatory & Compliance steering licensing, AML frameworks, responsible gaming safeguards, and state gaming board relationships.'
     },
@@ -916,11 +916,11 @@ export const KNOWLEDGE_BASE_ARTICLES: KnowledgeArticle[] = [
     quarter: 'Q3 2023',
     year: 2023,
     readTime: '8 min read',
-    coverImage: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=1200&q=80',
+    coverImage: '/sbt_logo_subtle.svg',
     author: {
       name: 'Oluwatoyin Jolaoso',
       role: 'Head of Platform Engineering',
-      avatar: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=200&q=80',
+      avatar: '/sbt-capital-logo.png',
       linkedin: 'https://linkedin.com',
       bio: 'Head of Platform Engineering focusing on low-latency odds distribution, WebSocket streaming clusters, and omnichannel user experience.'
     },
@@ -959,11 +959,11 @@ export const KNOWLEDGE_BASE_ARTICLES: KnowledgeArticle[] = [
     quarter: 'Q2 2023',
     year: 2023,
     readTime: '9 min read',
-    coverImage: 'https://images.unsplash.com/photo-1621416894569-0f39ed31d247?auto=format&fit=crop&w=1200&q=80',
+    coverImage: '/sbt_logo_subtle.svg',
     author: {
       name: 'Adams Olajide',
       role: 'Data Analyst',
-      avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80',
+      avatar: '/sbt-capital-logo.png',
       linkedin: 'https://linkedin.com',
       bio: 'Data Analyst specializing in iGaming financial metrics, GGR/NGR modeling, predictive churn analytics, and player cohort retention.'
     },
@@ -999,11 +999,11 @@ export const KNOWLEDGE_BASE_ARTICLES: KnowledgeArticle[] = [
     quarter: 'Q1 2023',
     year: 2023,
     readTime: '9 min read',
-    coverImage: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80',
+    coverImage: '/sbt_logo_subtle.svg',
     author: {
       name: 'Jolaoso Toyin',
       role: 'Chief Technology Officer',
-      avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80',
+      avatar: '/sbt-capital-logo.png',
       linkedin: 'https://linkedin.com',
       bio: 'Chief Technology Officer leading core platform architecture, distributed gaming microservices, and high-frequency transaction systems.'
     },
@@ -1040,11 +1040,11 @@ export const KNOWLEDGE_BASE_ARTICLES: KnowledgeArticle[] = [
     quarter: 'Q4 2022',
     year: 2022,
     readTime: '9 min read',
-    coverImage: 'https://images.unsplash.com/photo-1541701494587-cb58502866ab?auto=format&fit=crop&w=1200&q=80',
+    coverImage: '/sbt_logo_subtle.svg',
     author: {
       name: 'Yusuf Balogun',
       role: 'Head of Trading & Risk Operations',
-      avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=200&q=80',
+      avatar: '/sbt-capital-logo.png',
       linkedin: 'https://linkedin.com',
       bio: 'Head of Trading & Risk Operations managing book liability, anti-fraud algorithms, sharp betting mitigation, and real-time over-round pricing.'
     },
@@ -1081,11 +1081,11 @@ export const KNOWLEDGE_BASE_ARTICLES: KnowledgeArticle[] = [
     quarter: 'Q3 2022',
     year: 2022,
     readTime: '8 min read',
-    coverImage: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80',
+    coverImage: '/sbt_logo_subtle.svg',
     author: {
       name: 'Babatunde Adeleke',
       role: 'Director of African Retail Operations',
-      avatar: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=200&q=80',
+      avatar: '/sbt-capital-logo.png',
       linkedin: 'https://linkedin.com',
       bio: '20 years building physical sports betting networks, agency float logistics, and POS terminal distribution across West and East Africa.'
     },
@@ -1121,11 +1121,11 @@ export const KNOWLEDGE_BASE_ARTICLES: KnowledgeArticle[] = [
     quarter: 'Q2 2022',
     year: 2022,
     readTime: '9 min read',
-    coverImage: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80',
+    coverImage: '/sbt_logo_subtle.svg',
     author: {
       name: 'Bukola Gabriel',
       role: 'Chief Executive Officer',
-      avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80',
+      avatar: '/sbt-capital-logo.png',
       linkedin: 'https://linkedin.com',
       bio: 'Chief Executive Officer driving strategic expansion, tier-1 gaming partnerships, and regulatory licensing across African and global markets.'
     },
@@ -1165,11 +1165,11 @@ export const KNOWLEDGE_BASE_ARTICLES: KnowledgeArticle[] = [
     quarter: 'Q1 2022',
     year: 2022,
     readTime: '8 min read',
-    coverImage: 'https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1200&q=80',
+    coverImage: '/sbt_logo_subtle.svg',
     author: {
       name: 'Folashade Alabi',
       role: 'Director of Regulatory & Compliance',
-      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80',
+      avatar: '/sbt-capital-logo.png',
       linkedin: 'https://linkedin.com',
       bio: 'Director of Regulatory & Compliance steering licensing, AML frameworks, responsible gaming safeguards, and state gaming board relationships.'
     },

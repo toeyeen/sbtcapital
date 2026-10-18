@@ -14,14 +14,13 @@ defineProps<{
     class="group relative overflow-hidden rounded-3xl border border-default bg-card/60 backdrop-blur-sm transition-all duration-300 hover:border-primary/50 hover:shadow-2xl hover:shadow-primary/5"
   >
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-0">
-      <div class="relative overflow-hidden lg:col-span-7 aspect-16/10 lg:aspect-auto min-h-[300px]">
+      <div class="relative overflow-hidden bg-brand-50 dark:bg-brand-950/40 lg:col-span-7 aspect-16/10 lg:aspect-auto min-h-[300px]">
         <img
           :src="article.coverImage"
           :alt="article.title"
-          class="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+          class="h-full w-full object-contain p-8 sm:p-12 transition-transform duration-700 ease-out group-hover:scale-105"
           loading="lazy"
         />
-        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent lg:hidden" />
         <div class="absolute top-4 left-4 flex flex-wrap gap-2">
           <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-brand-100 text-brand-800 shadow-sm dark:bg-brand-950 dark:text-brand-200">
             <UIcon name="i-lucide-sparkles" class="w-3.5 h-3.5" />
@@ -89,14 +88,13 @@ defineProps<{
     class="group relative flex flex-col justify-between overflow-hidden rounded-2xl border border-default bg-card/60 backdrop-blur-sm transition-all duration-300 hover:border-primary/50 hover:shadow-xl hover:shadow-primary/5"
   >
     <div>
-      <div class="relative overflow-hidden aspect-16/10">
+      <div class="relative overflow-hidden aspect-16/10 bg-brand-50 dark:bg-brand-950/40">
         <img
           :src="article.coverImage"
           :alt="article.title"
-          class="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
+          class="h-full w-full object-contain p-8 transition-transform duration-500 ease-out group-hover:scale-105"
           loading="lazy"
         />
-        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity" />
         <div class="absolute top-3 left-3">
           <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-neutral-900/85 text-white backdrop-blur-md border border-white/10">
             {{ article.category }}

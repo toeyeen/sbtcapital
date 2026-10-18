@@ -360,7 +360,7 @@ useSeoMeta({
             <p class="mt-2 text-xs font-bold uppercase tracking-wider text-gray-500 dark:text-gray-400">Sports & Esports Covered</p>
           </div>
           <div class="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-gray-200 dark:bg-gray-900 dark:ring-gray-800 text-center">
-            <p class="text-3xl font-extrabold text-amber-500 sm:text-4xl">99.99%</p>
+            <p class="text-3xl font-extrabold text-brand-coral sm:text-4xl">99.99%</p>
             <p class="mt-2 text-xs font-bold uppercase tracking-wider text-gray-500 dark:text-gray-400">High Availability SLA</p>
           </div>
           <div class="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-gray-200 dark:bg-gray-900 dark:ring-gray-800 text-center">

@@ -59,9 +59,8 @@ useSeoMeta({ title, description, ogTitle: title, ogDescription: description })
           <div class="relative flex min-h-64 items-center justify-center lg:min-h-80">
             <div class="absolute size-64 rounded-full border border-white/15 sm:size-72" />
             <div class="absolute size-48 rounded-full border border-white/20 sm:size-56" />
-            <div class="relative z-10 flex size-36 flex-col items-center justify-center rounded-full bg-white text-brand-600 shadow-2xl sm:size-40">
-              <span class="text-4xl font-black tracking-tight">SBT</span>
-              <span class="mt-1 text-[10px] font-bold uppercase tracking-[0.22em]">Capital</span>
+            <div class="relative z-10 flex size-36 items-center justify-center rounded-full bg-white text-brand-600 shadow-2xl sm:size-40">
+              <AppLogo variant="navy" mark-only />
             </div>
             <span class="absolute left-[13%] top-[18%] size-3 rounded-full bg-white" />
             <span class="absolute right-[10%] top-[31%] size-2 rounded-full bg-white/60" />

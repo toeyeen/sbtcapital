@@ -127,13 +127,12 @@ const relatedArticles = computed(() => {
     <main class="py-10 sm:py-14">
       <UContainer>
         <!-- Hero Cover Banner -->
-        <div class="relative overflow-hidden rounded-3xl aspect-21/9 mb-10 border border-default shadow-xl">
+        <div class="relative flex items-center justify-center overflow-hidden rounded-3xl aspect-21/9 mb-10 border border-default bg-brand-50 dark:bg-brand-950/40 shadow-xl">
           <img
             :src="article.coverImage"
             :alt="article.title"
-            class="w-full h-full object-cover"
+            class="w-full h-full object-contain p-8 sm:p-14"
           />
-          <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
         </div>
 
         <!-- Optional Audio Podcast Player Bar -->

@@ -266,7 +266,7 @@ useSeoMeta({
                 <div class="flex items-center gap-1.5">
                   <span
                     v-if="partner.cryptoFriendly"
-                    class="flex size-7 items-center justify-center rounded-lg bg-amber-500/10 text-amber-600 dark:text-amber-400"
+                    class="flex size-7 items-center justify-center rounded-lg bg-brand-sky/10 text-brand-link"
                     title="Crypto Friendly"
                   >
                     <UIcon name="i-lucide-coins" class="size-4" />
@@ -367,7 +367,7 @@ useSeoMeta({
               </div>
 
               <div class="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-gray-200 dark:bg-gray-900 dark:ring-gray-800">
-                <p class="text-3xl font-extrabold text-amber-500 sm:text-4xl">300+</p>
+                <p class="text-3xl font-extrabold text-brand-coral sm:text-4xl">300+</p>
                 <p class="mt-2 text-xs font-bold uppercase tracking-wider text-gray-500 dark:text-gray-400">Global Sports Leagues Covered</p>
               </div>
 

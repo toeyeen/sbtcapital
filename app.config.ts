@@ -6,12 +6,12 @@ export default defineAppConfig({
         {
           color: 'primary',
           variant: 'solid',
-          class: 'text-white bg-brand-700 hover:bg-brand-800 active:bg-brand-900 disabled:bg-brand-500'
+          class: 'text-brand-dark bg-brand-coral hover:bg-[#D93B30] active:bg-[#C93329] disabled:bg-brand-coral/50'
         },
         {
           color: 'primary',
           variant: 'outline',
-          class: 'ring ring-inset ring-brand-700 text-brand-800 hover:bg-brand-50'
+          class: 'ring ring-inset ring-brand-link text-brand-link hover:bg-brand-50'
         }
       ]
     }

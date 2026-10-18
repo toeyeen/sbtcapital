@@ -4,7 +4,10 @@ useHead({
     { name: 'viewport', content: 'width=device-width, initial-scale=1' }
   ],
   link: [
-    { rel: 'icon', href: '/favicon.ico' }
+    { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
+    { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
+    { rel: 'shortcut icon', href: '/favicon.ico' },
+    { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }
   ],
   htmlAttrs: {
     lang: 'en'
@@ -75,7 +78,7 @@ useSeoMeta({
     <!-- Use SBT Capital Logo -->
     <!-- <USeparator icon="i-simple-icons-nuxtdotjs" /> -->
 
-    <UFooter>
+    <UFooter class="border-t border-white/10 bg-brand-700 text-white">
       <template #top>
         <UContainer>
           <nav
@@ -88,7 +91,7 @@ useSeoMeta({
                 :key="column.label"
                 class="space-y-4"
               >
-                <h2 class="text-lg font-semibold text-highlighted">
+                <h2 class="text-lg font-semibold text-white">
                   {{ column.label }}
                 </h2>
                 <ul class="space-y-3">
@@ -98,7 +101,7 @@ useSeoMeta({
                   >
                     <NuxtLink
                       :to="link.to"
-                      class="text-sm text-muted transition-colors hover:text-highlighted"
+                      class="text-sm text-white/70 transition-colors hover:text-white"
                     >
                       {{ link.label }}
                     </NuxtLink>
@@ -111,13 +114,16 @@ useSeoMeta({
       </template>
 
       <template #left>
-        <p class="text-sm text-muted">
-          © {{ new Date().getFullYear() }} SBT Capital. All rights reserved.
-        </p>
+        <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:gap-6">
+          <AppLogo variant="white" />
+          <p class="text-sm text-white/60">
+            © {{ new Date().getFullYear() }} SBT Capital. All rights reserved.
+          </p>
+        </div>
       </template>
 
       <template #right>
-        <UColorModeButton />
+        <UColorModeButton class="text-white hover:bg-white/10" />
       </template>
     </UFooter>
   </UApp>

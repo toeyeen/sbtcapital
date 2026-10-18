@@ -1,6 +1,26 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
 
+:root {
+  --ui-bg: #FAF7F0;
+  --ui-bg-muted: #F2EFE8;
+  --ui-bg-elevated: #FFFFFF;
+  --ui-bg-accented: #EAE6DE;
+  --ui-text: #101936;
+  --ui-text-highlighted: #07194A;
+  --ui-text-muted: #59647D;
+}
+
+.dark {
+  --ui-bg: #041235;
+  --ui-bg-muted: #07194A;
+  --ui-bg-elevated: #0B2052;
+  --ui-bg-accented: #142B5D;
+  --ui-text: #FAF7F0;
+  --ui-text-highlighted: #FFFFFF;
+  --ui-text-muted: #B8C1D4;
+}
+
 html,
 body {
   font-family: 'Sofia Pro Black', 'Sofia Pro', 'Public Sans', sans-serif;
@@ -26,15 +46,22 @@ body {
   --color-green-800: #016538;
   --color-green-900: #0A5331;
   --color-green-950: #052E16;
-  --color-brand-50: #F2F7FF;
-  --color-brand-100: #E6F0FF;
-  --color-brand-200: #B3D1FF;
-  --color-brand-300: #80B2FF;
-  --color-brand-400: #4D93FF;
-  --color-brand-500: #005CE6;
-  --color-brand-600: #0047B3;
-  --color-brand-700: #003380;
-  --color-brand-800: #002B66;
-  --color-brand-900: #001B40;
-  --color-brand-950: #00132E;
+  --color-brand-50: #F7F6F2;
+  --color-brand-100: #EDEEF2;
+  --color-brand-200: #D4DAE5;
+  --color-brand-300: #AEB9CE;
+  --color-brand-400: #7181A4;
+  --color-brand-500: #07194A;
+  --color-brand-600: #06163F;
+  --color-brand-700: #041235;
+  --color-brand-800: #030D26;
+  --color-brand-900: #02091A;
+  --color-brand-950: #010510;
+  --color-brand-coral: #F04A3A;
+  --color-brand-orange: #FFAE1A;
+  --color-brand-sky: #4A9FE8;
+  --color-brand-link: #1765A3;
+  --color-brand-ivory: #FAF7F0;
+  --color-brand-text: #101936;
+  --color-brand-dark: #041235;
 }

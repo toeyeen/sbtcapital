@@ -13,7 +13,7 @@ useSeoMeta({ title, description, ogTitle: title, ogDescription: description })
 
 <template>
   <UPage>
-    <section class="relative isolate overflow-hidden bg-[#141414] text-white">
+    <section class="relative isolate overflow-hidden bg-brand-700 text-white">
       <div class="absolute -right-20 -top-28 -z-10 size-[34rem] rounded-full border border-white/10" />
       <div class="absolute -right-4 -top-12 -z-10 size-[22rem] rounded-full border border-white/10" />
       <UContainer class="grid min-h-[29rem] gap-10 py-16 sm:py-20 lg:grid-cols-[1fr_0.7fr] lg:items-center">
@@ -21,7 +21,7 @@ useSeoMeta({ title, description, ogTitle: title, ogDescription: description })
           <p class="text-xs font-bold uppercase tracking-[0.22em] text-white/65">Careers at SBT Capital</p>
           <h1 class="mt-5 text-4xl font-bold leading-[1.05] tracking-tight sm:text-6xl">Leave your mark on African technology.</h1>
           <p class="mt-6 max-w-2xl text-lg leading-8 text-white/70">We’re building products for a fast-moving industry and a market we know well. Bring your craft, curiosity and ideas to a team creating what operators here need next.</p>
-          <a href="mailto:hello@sbtcapital.ng?subject=Careers%20at%20SBT%20Capital" class="mt-8 inline-flex items-center gap-3 rounded-full bg-primary px-6 py-3 text-sm font-bold text-white transition hover:brightness-110">
+          <a href="mailto:hello@sbtcapital.ng?subject=Careers%20at%20SBT%20Capital" class="mt-8 inline-flex items-center gap-3 rounded-full bg-brand-coral px-6 py-3 text-sm font-bold text-brand-dark transition hover:bg-[#D93B30]">
             Introduce yourself
             <UIcon name="i-lucide-arrow-right" class="size-4" />
           </a>
@@ -29,8 +29,8 @@ useSeoMeta({ title, description, ogTitle: title, ogDescription: description })
         <div class="relative hidden min-h-72 items-center justify-center lg:flex" aria-hidden="true">
           <div class="absolute size-64 rounded-full border border-white/15" />
           <div class="absolute size-44 rounded-full border border-white/20" />
-          <div class="z-10 flex size-28 items-center justify-center rounded-full bg-primary text-3xl font-black tracking-tight">SBT</div>
-          <span class="absolute left-[18%] top-[12%] size-3 rounded-full bg-primary" />
+          <div class="z-10 flex size-28 items-center justify-center rounded-full bg-brand-coral text-brand-dark text-3xl font-black tracking-tight">SBT</div>
+          <span class="absolute left-[18%] top-[12%] size-3 rounded-full bg-brand-orange" />
           <span class="absolute right-[15%] top-[26%] size-2 rounded-full bg-white" />
           <span class="absolute bottom-[12%] left-[35%] size-2 rounded-full bg-white/75" />
           <span class="absolute bottom-[27%] right-[13%] size-3 rounded-full bg-white/60" />
@@ -64,7 +64,7 @@ useSeoMeta({ title, description, ogTitle: title, ogDescription: description })
           <h2 class="mt-3 text-2xl font-bold text-highlighted">Tell us where you can make an impact.</h2>
           <p class="mt-3 max-w-2xl text-sm leading-6 text-muted">Send your CV or LinkedIn profile and a short note about the kind of work you’re looking for. We’ll keep it on hand and get in touch when there’s a suitable opportunity.</p>
         </div>
-        <a href="mailto:hello@sbtcapital.ng?subject=Careers%20at%20SBT%20Capital" class="inline-flex items-center justify-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-bold text-white transition hover:brightness-110">
+        <a href="mailto:hello@sbtcapital.ng?subject=Careers%20at%20SBT%20Capital" class="inline-flex items-center justify-center gap-2 rounded-full bg-brand-coral px-6 py-3 text-sm font-bold text-brand-dark transition hover:bg-[#D93B30]">
           Email your profile
           <UIcon name="i-lucide-arrow-up-right" class="size-4" />
         </a>

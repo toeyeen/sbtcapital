@@ -39,8 +39,8 @@ useSeoMeta({ title, description, ogTitle: title, ogDescription: description })
             <circle cx="230" cy="210" r="154" stroke="white" stroke-opacity=".25" />
             <circle cx="230" cy="210" r="112" stroke="white" stroke-opacity=".2" />
             <circle cx="230" cy="210" r="68" fill="#fff" />
-            <text x="230" y="203" text-anchor="middle" fill="#005ce6" font-size="13" font-weight="700" letter-spacing="2">SBT</text>
-            <text x="230" y="227" text-anchor="middle" fill="#005ce6" font-size="11" font-weight="600">PLATFORM</text>
+            <text x="230" y="203" text-anchor="middle" fill="#07194A" font-size="13" font-weight="700" letter-spacing="2">SBT</text>
+            <text x="230" y="227" text-anchor="middle" fill="#07194A" font-size="11" font-weight="600">PLATFORM</text>
             <circle cx="230" cy="56" r="8" fill="#fff" />
             <circle cx="384" cy="210" r="8" fill="#fff" />
             <circle cx="230" cy="364" r="8" fill="#fff" />
@@ -66,7 +66,7 @@ useSeoMeta({ title, description, ogTitle: title, ogDescription: description })
       <TechnologyStackCarousel />
     </UPageSection>
 
-    <UPageSection class="border-t border-default bg-[#fafaf8] dark:bg-gray-950">
+    <UPageSection class="border-t border-default bg-brand-ivory dark:bg-gray-950">
       <div class="grid gap-x-12 md:grid-cols-2">
         <article
           v-for="group in stackGroups"
