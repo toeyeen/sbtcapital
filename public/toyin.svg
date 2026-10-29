@@ -1,0 +1,10 @@
+<svg id="h-o-l-ds" width="250" height="250" viewBox="0 0 250 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <circle class="Rang" layer="0" id="Rang0" cx="125" cy="125" r="124" fill="none" stroke="#42acee" stroke-width="2"></circle>
+  <text id="RangText1" layer="1" font-size="20" font-style="normal" font-family="Arial" fill="#42acee" stroke="none" font-weight="normal" transform="rotate(-13 125 125)" textLength="386.71909">
+    <defs>
+      <path id="zY6WHxe9CcrB1" d="M 125 125 m -99.4, 0 a 99.4,99.4 0 1,1 198.8,0 a 99.4,99.4 0 1,1 -198.8,0"></path>
+    </defs>
+    <textPath href="#zY6WHxe9CcrB1" xlink:href="#zY6WHxe9CcrB1" textLength="386.71909">VERMANTIA PLUS LTD</textPath>
+  </text>
+  <circle class="Rang" layer="2" id="Rang2" cx="125" cy="125" r="94.5" fill="none" stroke="#42acee" stroke-width="1" stroke-dasharray="0"></circle>
+</svg>

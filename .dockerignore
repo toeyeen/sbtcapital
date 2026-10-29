@@ -1,0 +1,14 @@
+.git
+.nuxt
+.output
+node_modules
+dist
+coverage
+.data
+.DS_Store
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+.env
+.env.*
+!.env.example
